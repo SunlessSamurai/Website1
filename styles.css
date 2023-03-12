@@ -1,0 +1,75 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+
+/* just to make it dark mode idk why it looks better on my eyes */
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+}
+
+div .header {
+    display: flex;
+    max-width: 100%;
+    height: 50px;
+    
+}
+
+.headertitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+.showlinks {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-grow: 2;
+    margin-right: 30px;
+}
+ul  {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    justify-content: end;
+  }
+
+a {
+text-decoration: none;
+font-size: 20px;
+color: white;
+}
+
+/* layer 2 start */
+
+.layer1container {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    margin: auto;
+}
+.layer1left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 3em 2em 3em 5em;
+}
+.layer1right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+div.description {
+    display: flex;
+    justify-content: center;
+}
